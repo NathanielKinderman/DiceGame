@@ -21,6 +21,7 @@ function runGame(){
 		alert("Your health " + player1.Health);
 		console.log("Your health " + player1.Health);
 	}
+	
 	console.log("They got knocked out");
 	console.log(player1);
 	console.log(computer);
@@ -62,15 +63,15 @@ function rollDie(numberOfSides) {
     // document.getElementById(idOfElement).value = randomNumber;
 }
 
-function accuracy(){				//unexpected token, check if logic is true also check if 
-	let hit = rollDie(6);
-		if(hit >==3==true);
-		console.log("Your hit connected...")
+// function accuracy(){				//unexpected token, check if logic is true also check if 
+// 	let hit = rollDie(6);
+// 		if(hit >==3==true);
+// 		console.log("Your hit connected...")
 
-		else(hit<==3);
-		console.log("Your hit missed....")
+// 		else(hit<==3);
+// 		console.log("Your hit missed....")
 
-} 
+//} 
 
 //switch case here for players choice on attack
 
@@ -86,32 +87,32 @@ function chooseattack(player) {
 	switch(choice){
 		case"jab":
 		damage = rollDie(4);
-		accuracy();
+		// accuracy();
 
 		console.log("Your jab did: " + damage)
 		break;
 
 		case"cross":
 		damage = rollDie(8);
-		accuracy();
+		// accuracy();
 		console.log("Your cross did: " + damage)
 		break;
 
 		case"haymaker":
 		damage = rollDie(10);
-		accuracy();
+		// accuracy();
 		console.log("Your haymaker did: " + damage)
 		break;
 
 		case"bodyshot":
 		damage = rollDie(12);
-		accuracy();
+		// accuracy();
 		console.log("Your bodyshot did: " + damage)
 		break;
 
 		case"uppercut":
 		damage = rollDie(20);
-		accuracy();
+		// accuracy();
 		console.log("Your uppercut did: " + damage)
 		break;
 		default:
